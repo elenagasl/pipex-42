@@ -20,13 +20,19 @@ You are not allowed to use `system()` or any other function that launches the sh
 
 ## Compilation
 
-You can compile your program with:
+**Note:** You must have your `libft` (including `ft_printf`) available in a directory named `libft/`.
+
+To compile the program:
 
 ```bash
-gcc -Wall -Wextra -Werror pipex.c utils.c -o pipex
+gcc -Wall -Wextra -Werror pipex.c utils.c libft/libft.a -Ilibft -o pipex
 ```
 
-Add any additional `.c` files if you split your code further.
+Make sure to compile `libft` first:
+
+```bash
+cd libft && make && cd ..
+```
 
 ## Usage
 
