@@ -31,13 +31,13 @@ Add any additional `.c` files if you split your code further.
 ## Usage
 
 ```bash
-./pipex infile \"cmd1\" \"cmd2\" outfile
+./pipex infile "cmd1" "cmd2" outfile
 ```
 
 Example:
 
 ```bash
-./pipex infile \"grep hello\" \"wc -l\" outfile
+./pipex infile "grep hello" "wc -l" outfile
 ```
 
 This is equivalent to:
